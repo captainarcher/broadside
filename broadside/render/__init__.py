@@ -18,7 +18,7 @@ import httpx
 
 from broadside.budget import BudgetGuard
 from broadside.config import BroadsideConfig, ShowConfig
-from broadside.schema import Episode, RenderManifest, SceneManifestEntry, TalkScene
+from broadside.schema import DemoScene, DiagramScene, Episode, RenderManifest, SceneManifestEntry, TalkScene
 from broadside.state import RunState
 
 from .hasher import content_hash, scene_exists, scene_filename
@@ -42,7 +42,7 @@ __all__ = [
 class RenderPlan:
     """Preview of an upcoming render batch."""
 
-    scenes_to_render: list[TalkScene] = field(default_factory=list)
+    scenes_to_render: list[TalkScene | DemoScene | DiagramScene] = field(default_factory=list)
     scenes_cached: list[str] = field(default_factory=list)
     estimated_duration: float = 0.0
     estimated_cost: float = 0.0
@@ -208,7 +208,7 @@ async def retry_scene(
     episode = Episode.load(episode_path)
     show_config = config.get_show(episode.show)
 
-    target_scene: TalkScene | None = None
+    target_scene: TalkScene | DemoScene | DiagramScene | None = None
     for scene in episode.talk_scenes:
         if scene.id == scene_id:
             target_scene = scene

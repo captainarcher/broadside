@@ -21,6 +21,8 @@ from ..config import ShowConfig
 from ..schema import (
     AdScene,
     CardScene,
+    DemoScene,
+    DiagramScene,
     Episode,
     SilentScene,
     TalkScene,
@@ -246,6 +248,135 @@ def _prepare_ad_scene(
     _run_ffmpeg(args, desc=f"prepare ad {scene.id}")
 
 
+def _prepare_demo_scene(
+    scene: DemoScene,
+    scene_file: Path,
+    show_config: ShowConfig,
+    output: Path,
+) -> None:
+    """Composite screen recording with avatar PiP in bottom-left corner.
+
+    The screen recording fills the frame and the HeyGen-rendered avatar
+    narration is overlaid as a small picture-in-picture in the bottom-left.
+    Audio comes from the avatar narration track.
+    """
+    ffmpeg = _check_ffmpeg()
+    w, h = show_config.dimensions
+    pip_w = int(w * 0.25)
+    pip_x = int(w * 0.03)
+    pip_y = int(h * 0.72)
+
+    recording = Path(scene.recording)
+
+    vf_main = f"scale={w}:{h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2"
+    if scene.pause_after > 0:
+        vf_main += f",tpad=stop_mode=clone:stop_duration={scene.pause_after}"
+
+    filter_complex = (
+        f"[0:v]{vf_main}[recording];"
+        f"[1:v]scale={pip_w}:-1[avatar];"
+        f"[recording][avatar]overlay=x={pip_x}:y={pip_y}[vout]"
+    )
+
+    af_parts = []
+    if scene.pause_after > 0:
+        af_parts.append(f"apad=pad_dur={scene.pause_after}")
+
+    args = [
+        ffmpeg, "-y",
+        "-i", str(recording),       # input 0: screen recording (video only used)
+        "-i", str(scene_file),       # input 1: avatar narration (video + audio)
+        "-filter_complex", filter_complex,
+        "-map", "[vout]", "-map", "1:a",  # video from composite, audio from avatar
+    ]
+    if af_parts:
+        args.extend(["-af", ",".join(af_parts)])
+    args.extend([
+        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+        "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2",
+        "-pix_fmt", "yuv420p", "-r", "30",
+        "-shortest",
+        str(output),
+    ])
+    _run_ffmpeg(args, desc=f"prepare demo {scene.id}")
+
+
+def _get_duration(file: Path) -> float:
+    """Get duration of a media file in seconds using ffprobe."""
+    ffprobe = shutil.which("ffprobe")
+    if not ffprobe:
+        raise FFmpegError("ffprobe not found. Install with: brew install ffmpeg")
+    result = subprocess.run(
+        [ffprobe, "-v", "quiet", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", str(file)],
+        capture_output=True, text=True, timeout=30,
+    )
+    if result.returncode != 0:
+        raise FFmpegError(f"ffprobe failed on {file}: {result.stderr}")
+    return float(result.stdout.strip())
+
+
+def _prepare_diagram_scene(
+    scene: DiagramScene,
+    scene_file: Path,
+    show_config: ShowConfig,
+    output: Path,
+) -> None:
+    """Show diagram with Ken Burns zoom and avatar PiP in bottom-left.
+
+    The diagram image fills the frame with a slow zoom for visual interest.
+    The avatar narration is overlaid as PiP in the bottom-left corner.
+    Audio comes from the avatar narration track.
+    """
+    ffmpeg = _check_ffmpeg()
+    w, h = show_config.dimensions
+    pip_w = int(w * 0.25)
+    pip_x = int(w * 0.03)
+    pip_y = int(h * 0.72)
+
+    asset = Path(scene.asset)
+    duration = _get_duration(scene_file)
+    if scene.pause_after > 0:
+        duration += scene.pause_after
+
+    # Ken Burns: slow zoom from 105% to 100% over the narration duration
+    frames = int(30 * duration)
+    diagram_vf = (
+        f"scale={int(w * 1.1)}:{int(h * 1.1)},"
+        f"zoompan=z='1.05-0.05*on/{frames}'"
+        f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+        f":d={frames}:s={w}x{h}:fps=30"
+    )
+
+    filter_complex = (
+        f"[0:v]{diagram_vf}[diagram];"
+        f"[1:v]scale={pip_w}:-1[avatar];"
+        f"[diagram][avatar]overlay=x={pip_x}:y={pip_y}[vout]"
+    )
+
+    af_parts = []
+    if scene.pause_after > 0:
+        af_parts.append(f"apad=pad_dur={scene.pause_after}")
+
+    args = [
+        ffmpeg, "-y",
+        "-loop", "1", "-i", str(asset),   # input 0: diagram image
+        "-i", str(scene_file),              # input 1: avatar narration
+        "-filter_complex", filter_complex,
+        "-map", "[vout]", "-map", "1:a",
+    ]
+    if af_parts:
+        args.extend(["-af", ",".join(af_parts)])
+    args.extend([
+        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+        "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2",
+        "-pix_fmt", "yuv420p", "-r", "30",
+        "-shortest",
+        str(output),
+    ])
+    _run_ffmpeg(args, desc=f"prepare diagram {scene.id}")
+
+
 def _find_illustrations(episode_id: str) -> list[Path]:
     """Find courtroom sketch illustrations for an episode.
 
@@ -385,6 +516,18 @@ def assemble_timeline(
 
             elif isinstance(scene, SilentScene):
                 _prepare_silent_scene(scene, show_config, build_dir, clip_out)
+
+            elif isinstance(scene, DemoScene):
+                scene_file = _find_scene_file(episode.episode, scene.id, build_dir)
+                if not scene_file or not scene_file.exists():
+                    raise FFmpegError(f"Scene file not found for {scene.id}")
+                _prepare_demo_scene(scene, scene_file, show_config, clip_out)
+
+            elif isinstance(scene, DiagramScene):
+                scene_file = _find_scene_file(episode.episode, scene.id, build_dir)
+                if not scene_file or not scene_file.exists():
+                    raise FFmpegError(f"Scene file not found for {scene.id}")
+                _prepare_diagram_scene(scene, scene_file, show_config, clip_out)
 
             elif isinstance(scene, AdScene):
                 # Find ad video: try concept path directly, then load concept YAML for name

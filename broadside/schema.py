@@ -39,6 +39,22 @@ class SilentScene(BaseModel):
     overlay: str | None = None
 
 
+class DemoScene(BaseModel):
+    id: str
+    type: Literal["demo"] = "demo"
+    text: str  # narration text (rendered by HeyGen as talk scene)
+    recording: str  # path to screen recording MP4
+    pause_after: float = 0.0
+
+
+class DiagramScene(BaseModel):
+    id: str
+    type: Literal["diagram"] = "diagram"
+    text: str  # narration text (rendered by HeyGen as talk scene)
+    asset: str  # path to diagram image (PNG/JPG/WEBP)
+    pause_after: float = 0.0
+
+
 class AdScene(BaseModel):
     id: str
     type: Literal["ad"] = "ad"
@@ -46,7 +62,7 @@ class AdScene(BaseModel):
     duration: float = 12.0
 
 
-Scene = TalkScene | CardScene | SilentScene | AdScene
+Scene = TalkScene | CardScene | SilentScene | AdScene | DemoScene | DiagramScene
 
 
 class EndCard(BaseModel):
@@ -72,8 +88,8 @@ class Episode(BaseModel):
         return cls.model_validate(data)
 
     @property
-    def talk_scenes(self) -> list[TalkScene]:
-        return [s for s in self.scenes if isinstance(s, TalkScene)]
+    def talk_scenes(self) -> list[TalkScene | DemoScene | DiagramScene]:
+        return [s for s in self.scenes if isinstance(s, (TalkScene, DemoScene, DiagramScene))]
 
     @property
     def card_scenes(self) -> list[CardScene]:
