@@ -1,0 +1,76 @@
+name: "Cal's Pre-Owned AI Lot — Jingle"
+tune_reference: "If You're Happy and You Know It (traditional)"
+tempo: "Upbeat, slightly too fast, local-ad energy"
+instrumentation: "Cheap Casio keyboard, one acoustic guitar, a man who can almost sing"
+note: >
+  Meter matches the original exactly. Each "clap clap" moment is replaced
+  with a sound effect (server beep, dial-up modem chirp, or cash register).
+  The singer should sound like he recorded this in one take and was not
+  going to do another.
+
+verses:
+  - number: 1
+    title: "The Opener"
+    lyrics: |
+      If your AI is seeing things, go see Cal!
+      [beep beep]
+      If your AI is seeing things, go see Cal!
+      [beep beep]
+      If your model's lost its mind
+      And it's leaving facts behind
+      If your AI is seeing things, go see Cal!
+      [beep beep]
+
+  - number: 2
+    title: "The Value Proposition"
+    lyrics: |
+      If you need a cheaper brain, go see Cal!
+      [beep beep]
+      If you need a cheaper brain, go see Cal!
+      [beep beep]
+      He's got GPUs galore
+      Some were used in crypto before
+      If you need a cheaper brain, go see Cal!
+      [beep beep]
+
+  - number: 3
+    title: "The Guarantee"
+    lyrics: |
+      If it crashes on day two, go see Cal!
+      [beep beep]
+      If it crashes on day two, go see Cal!
+      [beep beep]
+      He won't give your money back
+      But he'll slap another rack
+      If it crashes on day two, go see Cal!
+      [beep beep]
+
+  - number: 4
+    title: "The Closer"
+    lyrics: |
+      If you don't know what you bought, that's okay!
+      [beep beep]
+      If you don't know what you bought, that's okay!
+      [beep beep]
+      Cal don't know what he sold
+      But the terms are iron-clad bold
+      If you don't know what you bought — go see Cal!
+      [beep beep]
+
+  - number: 5
+    title: "The Tag (plays under Cal talking)"
+    lyrics: |
+      Go see Cal, go see Cal, go see Cal!
+      Go see Cal, go see Cal, go see Cal!
+      He's got AI on the lot
+      Some of it works, some does not
+      Go see Cal, go see Cal, go see Cal!
+
+generation_prompt: >
+  Generate a jingle in the style of a 1980s local TV car dealership ad.
+  The tune is "If You're Happy and You Know It" but performed by one
+  enthusiastic man with a cheap keyboard backing track. It should sound
+  like it was recorded in a garage. The energy is relentless and slightly
+  unhinged. Between verses, there should be two short electronic beeps
+  (like a server POST sound). The whole thing should feel like it will
+  get stuck in your head against your will.

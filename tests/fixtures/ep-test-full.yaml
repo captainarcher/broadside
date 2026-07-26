@@ -1,0 +1,51 @@
+# Test fixture: full episode with all scene types
+episode: ep-test-full
+show: bs
+post_day: Thursday
+caption_hook: "A test episode covering all scene types."
+source_story:
+  headline: "Example Company Announces Absurd Product"
+  source: "Test Publication"
+  url: "https://example.com/test-full"
+  key_quotes:
+    - "Our product leverages synergy to disrupt the paradigm."
+scenes:
+  - id: s1
+    type: talk
+    text: "This is the opening line."
+  - id: s2
+    type: talk
+    text: "Here is some setup text about the story with enough words to test counting."
+    pause_after: 1.0
+  - id: s3
+    type: talk
+    text: "This scene has a zoom flag for emphasis testing."
+    zoom: true
+    pause_after: 1.2
+  - id: s4
+    type: card
+    asset: assets/cards/test-card.png
+    duration: 2.0
+    audio: none
+  - id: s5
+    type: talk
+    text: "A line after the card to test card scene handling."
+  - id: s6
+    type: silent
+    duration: 1.0
+  - id: s7
+    type: talk
+    text: "Another talk scene with a pause for testing."
+    pause_after: 0.8
+  - id: s8
+    type: talk
+    text: "A zoom scene to test the punch-in effect."
+    zoom: true
+    pause_after: 1.5
+  - id: s9
+    type: talk
+    text: "This is the closing line of the test episode."
+end_card:
+  wordmark: assets/brand/wordmark.png
+  text: "@testshow"
+  duration: 2.0

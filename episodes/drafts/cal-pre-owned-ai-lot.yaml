@@ -1,0 +1,12 @@
+episode: cal-pre-owned-ai-lot
+show: bs
+post_day: Saturday
+caption_hook: "Are your AI models hallucinating? Don't throw em out — TRADE EM IN! Go see Cal."
+source_story:
+  headline: "Cal's Pre-Owned AI Lot — Official Commercial"
+  source: "That's The BS"
+  url: ""
+scenes:
+  - id: ad
+    type: talk
+    text: "Cal's Pre-Owned AI Lot commercial"

@@ -1,0 +1,64 @@
+episode: ep-20260725-cow-token
+show: bs
+post_day: ''
+caption_hook: Brazilian farmers tokenized their cows. The cows were not consulted.
+  🐄🔗
+source_story:
+  headline: Brazilian farmers tokenized dairy cows to get loans, bypassing bank limits
+  source: hackernews
+  url: https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: Brazilian dairy farmers are putting cows on the blockchain. The cows have
+    not been informed.
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: So here's what happened. Farmers in Brazil needed loans. Banks wanted collateral
+    documents, credit histories, and apparently a notarized letter from the cow herself.
+    So the farmers just… tokenized their livestock. Bypassed traditional lending entirely.
+    And it worked.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: The blockchain industry spent a decade producing white papers, TED talks,
+    and an entire Bored Ape NFT collection trying to explain tokenization. A Brazilian
+    dairy farmer figured it out in forty-five minutes.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: Each token represents fractional ownership of a living bovine asset. The cow
+    produces milk, generates yield, and has a wallet address. Old MacDonald had a
+    farm — and apparently a pretty aggressive DeFi portfolio.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: These farmers chose blockchain over traditional banking because it was simpler,
+    faster, and more transparent. That is not a compliment to blockchain.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: First the cow is collateral. Then the cow is a security. Give it six months
+    and Moody's downgrades her to B-minus after a disappointing Q3 milk output.
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: After a decade of white papers and keynote speeches, the clearest use case
+    for blockchain turned out to be a cow. A cow with better liquidity than most crypto
+    startups from 2021.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone, and that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

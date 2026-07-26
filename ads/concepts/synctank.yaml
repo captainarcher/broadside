@@ -1,0 +1,23 @@
+name: "SyncTank Pro"
+tagline: "Your thoughts, now in the cloud. Whether you like it or not."
+description: >
+  A parody cloud storage service that claims to back up your actual
+  thoughts to the cloud. Premium tier includes "ThoughtSync" which
+  uploads your internal monologue in real-time. Enterprise plan
+  includes involuntary thought archival for compliance.
+style: tech
+voiceover_script: >
+  That's The BS is brought to you by SyncTank Pro.
+  Tired of forgetting things? So were we. Introducing SyncTank Pro —
+  the first cloud platform that backs up your actual thoughts. Every
+  idea, every grocery list, every 3 AM existential crisis — safely
+  stored in our servers forever. SyncTank Pro. Because your brain
+  deserves a backup. Terms and conditions include irrevocable access
+  to your subconscious.
+  SyncTank Pro — a proud sponsor of That's The BS.
+text_overlays:
+  - "SYNCTANK PRO"
+  - "ThoughtSync Technology™"
+  - "Starting at $14.99/thought"
+  - "Now with involuntary archival"
+duration: 15.0

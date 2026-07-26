@@ -1,0 +1,51 @@
+episode: ep-20260726-ai-surveillance-special
+show: bs
+post_day: ''
+caption_hook: MIT is building AI surveillance tech and AI companies are hiding billions in debt — what could go wrong?
+source_story:
+  headline: MIT to become hotbed of AI video surveillance; AI companies hiding staggering debt
+  source: hackernews
+  url: https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html
+  key_quotes:
+    - MIT is positioning itself as a center for AI-powered video surveillance research.
+    - AI companies are moving billions in debt off their balance sheets to obscure the true cost of operations.
+scenes:
+- id: cold_open
+  type: talk
+  text: MIT — the Massachusetts Institute of Technology — the place that gave us the internet, modern cryptography, and Noam Chomsky — has decided its next big contribution to humanity is watching you walk through a parking garage.
+  pause_after: 1.0
+  zoom: false
+- id: setup
+  type: talk
+  text: So here's what's happening. MIT is positioning itself as a hub — a hotbed, their word, not mine — for AI-powered video surveillance research. We're talking computer vision systems that can track, identify, and analyze human behavior from camera feeds at scale. The idea is that campuses, cities, airports, all get smarter eyes. And by smarter I mean eyes that never blink and never forget and are being designed by people whose previous project was probably a robot that folds laundry.
+  pause_after: 0.8
+  zoom: false
+- id: angle1
+  type: talk
+  text: Now look, MIT has been at the forefront of AI research for decades. No one disputes that. But there's a difference between "we're advancing the field of machine learning" and "we're building the thing that tells a mall cop you lingered too long near the Cinnabon." The university that literally coined the term artificial intelligence in 1956 is now helping build systems to flag you for walking funny. Seventy years of progress. And I have questions. Because Bruce Schneier — security researcher, not a guy prone to hysteria — flagged this, and when Bruce Schneier says "hey maybe let's talk about this," the correct response is not "nah."
+  pause_after: 1.1
+  zoom: true
+- id: ad_break
+  type: ad
+  concept: ads/concepts/blinkonce.yaml
+  duration: 22.0
+- id: angle2
+  type: talk
+  text: Meanwhile — and I cannot stress enough how meanwhile this is — AI companies across the industry are hiding a staggering amount of debt. Just moving it off their balance sheets like it's furniture you shove in a closet before a date comes over. Billions of dollars in obligations structured so they don't show up in the numbers investors actually read. The companies building the future can't afford the future, so they're just... not writing it down. That's not accounting. That's a vibe.
+  pause_after: 1.0
+  zoom: true
+- id: callback
+  type: talk
+  text: So let me see if I have the full picture. The AI industry is spending money it is actively hiding to build surveillance systems that see everything. They want total transparency — for you. For their own books? Thoughts and prayers. MIT is lending its credibility to technology that tracks every person in a room, developed by companies that won't let you track every dollar on their ledger. That's like your accountant installing cameras in your house while shredding their own receipts.
+  pause_after: 1.2
+  zoom: true
+- id: closer
+  type: talk
+  text: The smartest people in the world built an industry that can identify your face from forty yards away but cannot identify its own liabilities from forty pages deep in an SEC filing. Cool. Cool cool cool. The all-seeing eye has one blind spot and it's the mirror.
+  pause_after: 1.0
+  zoom: false
+- id: signoff
+  type: talk
+  text: I am Benn Stone, and that is the BS.
+  pause_after: 0.0
+  zoom: false

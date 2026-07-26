@@ -1,0 +1,178 @@
+name: "Cal's Pre-Owned AI Lot"
+tagline: "Go see Cal! Go see Cal! Go see Cal!"
+character: "Cal Dataworth"
+
+description: >
+  A parody of Cal Worthington's legendary used car dealership ads,
+  reimagined as a used/refurbished AI model lot. Cal Dataworth is a
+  sweaty, loud man in a too-shiny suit standing on a lot full of
+  rack-mounted servers, old GPUs on cinder blocks, and hand-painted
+  signs reading "AS-IS LLMS — NO HALLUCINATION WARRANTY." His catchphrase
+  is "Here's Cal Dataworth and his AI assistant Hal!" — but "Hal" is
+  never an AI. It's a man in a cardboard robot costume, a Magic 8-Ball
+  on a stick, a parrot trained to say "optimizing," a golden retriever
+  wearing Google Glass, a roomba with googly eyes, etc. The jingle is
+  a parody of "If You're Happy and You Know It." The ads are intentionally
+  low-budget, oversaturated, and run every single day with slight
+  escalation. Benn Stone endorses Cal personally. He has met Cal.
+  Cal fixed his ice machine once, though the repair "made it worse
+  in a way that was technically legal."
+
+style: infomercial
+
+the_dog_spot_gag:
+  name: "Hal"
+  claim: "Cal Dataworth's AI assistant"
+  reality_options:
+    - "a man in a refrigerator box spray-painted silver, with a colander on his head"
+    - "a Magic 8-Ball duct-taped to a selfie stick"
+    - "a parrot trained to say 'optimizing' and 'per my last email'"
+    - "a golden retriever wearing discontinued Google Glass"
+    - "a Roomba with googly eyes and a Post-it note that says 'THINKING...'"
+    - "a ventriloquist dummy in a Patagonia vest"
+    - "a fish tank labeled 'THE CLOUD'"
+    - "three raccoons in a trench coat holding an iPad"
+
+visual_style:
+  description: >
+    Think 1987 local car dealership ad shot on a camcorder. Bad green
+    screen that doesn't quite track. Lighting so bright Cal has no
+    shadows. The "lot" is rows of server racks on asphalt, some with
+    "CERTIFIED PRE-HALLUCINATED" banners. Inflatable tube men but they're
+    shaped like USB cables. A banner reads "0% DOWN, 900% MARKUP." Cal's
+    suit is a size too small and the color of a swimming pool. His tie
+    has binary on it. The text overlays use Impact font in yellow with
+    a red drop shadow. A phone number scrolls across the bottom but it's
+    too many digits. Everything is slightly too fast, like they're saving
+    on tape.
+  color_palette: "oversaturated primary colors, lens flare on everything"
+  aspect_ratio: "9:16"
+  camera: "single locked-off wide shot, occasional unmotivated zoom"
+
+jingle:
+  tune: "If You're Happy and You Know It"
+  note: "Full lyrics in separate jingle file for music generation"
+  usage: "Plays under every ad, gets stuck in your head, becomes viewer complaint"
+
+voiceover_script: >
+  That's The BS is brought to you by Cal's Pre-Owned AI Lot.
+  Are your AI models running slow? Are they hallucinating? Are they
+  telling your customers that the CEO is a beautiful horse? Don't
+  throw 'em out — trade 'em in! Come on down to Cal's Pre-Owned AI
+  Lot on Route Nine, right between the vape shop and the other vape
+  shop. We got GPTs, we got LLMs, we got whatever Gemini is now.
+  All certified pre-owned! All sales final!
+  Here's Cal Dataworth and his AI assistant Hal!
+  Cal's got models so cheap, they don't even finish their sentences.
+  That's not a bug — that's a feature, and Cal's passing the savings
+  on to you.
+  Zero down! No credit check! We don't even check if you're a person!
+  Most of our customers aren't!
+  Cal's Pre-Owned AI Lot. If we can't get you into an AI today,
+  we'll get an AI into you. Don't think about what that means.
+  Just come on down.
+  Cal's Pre-Owned AI Lot — a proud sponsor of That's The BS.
+
+text_overlays:
+  - "CAL'S PRE-OWNED AI LOT"
+  - "ROUTE 9 — BETWEEN THE VAPE SHOPS"
+  - "0% DOWN / 900% MARKUP"
+  - "ALL SALES FINAL / ALL HALLUCINATIONS YOURS"
+  - "1-800-CAL-DATA (too many digits)"
+  - "CERTIFIED PRE-HALLUCINATED"
+  - "Se habla Python"
+
+duration: 35.0
+
+benn_endorsement: >
+  I've been to Cal's lot. I've met Cal. He shook my hand and did not
+  let go for the duration of the conversation. He fixed my ice machine
+  once — made it worse, but in a way I couldn't prove. His AI assistant
+  Hal is... I've been told Hal is an AI. Hal blinks. I don't know what
+  to do with that. But Cal's prices are real, and I believe in Cal,
+  and that's enough for me.
+
+escalation_arc:
+  description: >
+    Five-day arc. Each day the ad runs with the same structure but
+    escalates in absurdity. By Day 5, the viewer should feel like they
+    are losing their mind, which is the joke.
+
+  day_1:
+    title: "Grand Opening"
+    hal_appearance: "man in a cardboard box spray-painted silver"
+    escalation: >
+      Baseline ad. Everything almost works. Cal is enthusiastic.
+      Hal waves stiffly. The jingle plays at normal speed. Cal slaps
+      a server and it beeps. "All our models pass a seven-point
+      inspection. Three of those points are the same point."
+    benn_reaction: >
+      "I trust Cal. He looked me in the eye — both eyes, separately —
+      and told me his prices were real."
+
+  day_2:
+    title: "Hal Speaks"
+    hal_appearance: "Magic 8-Ball duct-taped to a selfie stick"
+    escalation: >
+      Cal asks Hal a question on camera. Hal is now a Magic 8-Ball.
+      Cal shakes it, reads: "Reply hazy, try again." Cal nods and says
+      "See? He's thinking. That's enterprise-grade reasoning." A second
+      inflatable tube man has appeared in the background. No one
+      acknowledges it.
+    benn_reaction: >
+      "Hal gave me a reading once. Said 'Ask again later.' I did.
+      Same answer. Consistent. That's what you want in an AI."
+
+  day_3:
+    title: "The Competitor"
+    hal_appearance: "parrot trained to say 'optimizing' and 'per my last email'"
+    escalation: >
+      Cal addresses "the competition" — a shadowy figure he only calls
+      "The Other Guy." Claims The Other Guy's AIs "dream about you."
+      Cal's don't dream. "They don't even sleep. They can't. I removed
+      that." Hal the parrot screams "OPTIMIZING" unprompted. The phone
+      number on screen now has fifteen digits. A third inflatable tube
+      man. Something is smoking in the background.
+    benn_reaction: >
+      "Cal told me The Other Guy's models remember your face.
+      Cal's models don't remember anything. I find that reassuring."
+
+  day_4:
+    title: "Midnight Madness"
+    hal_appearance: "three raccoons in a trench coat holding an iPad"
+    escalation: >
+      The ad now runs at night. Cal is in the same suit but it's
+      unbuttoned. He's sweating visibly. He claims the lot is "open
+      twenty-eight hours." Hal is three raccoons — no one addresses this.
+      Cal offers "buy one AI, get one AI you didn't ask for, free."
+      The jingle plays slightly too fast. Five inflatable tube men.
+      One appears to be deflating. Cal says "I've been here since
+      Tuesday" and does not clarify which Tuesday.
+    benn_reaction: >
+      "Cal called me at three AM to tell me about a deal. I don't
+      have Cal's number. I don't know how he called me. The deal
+      was good though."
+
+  day_5:
+    title: "Cal Has Ascended"
+    hal_appearance: "Cal himself in a second suit, standing next to Cal"
+    escalation: >
+      Cal introduces Hal. Hal is Cal. Same man, same suit, different
+      color tie. Cal and Hal finish each other's sentences. Neither
+      acknowledges the situation. The lot is now FULL of inflatable
+      tube men — the servers are barely visible. The jingle plays
+      backward. The phone number is just the letter Q repeated. Cal
+      looks directly into camera and says "I know you've been watching
+      all week. Come on down." The green screen briefly fails, revealing
+      what appears to be a Denny's parking lot.
+    benn_reaction: >
+      "I went down there on Friday. There were two Cals. One of them
+      sold me something. I don't know what it is. It's in my trunk.
+      It hums. I believe in Cal."
+
+tags:
+  - recurring-sponsor
+  - serialized-arc
+  - cal-worthington-homage
+  - used-ai-lot
+  - jingle

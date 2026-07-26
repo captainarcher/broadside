@@ -1,0 +1,112 @@
+episode: ep-20260726-crossover-sovereign-ai
+show: bs
+post_day: Saturday
+caption_hook: First guest ever on The Broadside. Thomas Underhill on sovereign AI
+  and owning your own ice machine.
+source_story:
+  headline: Sovereign AI and Owning Your Own Ice Machine
+  source: The Broadside Guest Special
+  url: ''
+scenes:
+- id: intro
+  type: talk
+  text: Good evening. Tonight we're talking about artificial intelligence in government,
+    which is a phrase that would have saved me eleven thousand dollars in accounting
+    fees if it had existed in two thousand nine. I once tried to automate my bookkeeping
+    with a spreadsheet. The spreadsheet told me I owed Gary money. I did not owe Gary
+    money. Gary owed me a formal apology and half a keg deposit. The spreadsheet disagreed.
+    So I have thoughts about trusting machines with important decisions.
+  pause_after: 1.5
+- id: intro_guest
+  type: talk
+  text: Our guest tonight is Thomas Underhill. Thomas works in government AI by day
+    and then goes home and builds more AI, for free, which is a level of commitment
+    I have only ever seen in one other person, and that person was Kevin refilling
+    the peanut bowl from his own duffel bag supply. Thomas, welcome.
+  pause_after: 1.0
+- id: thomas_intro
+  type: talk
+  text: Thanks, Benn. Yeah, so my day job is at a company called StateCraft Labs.
+    We do AI work for government clients. But honestly what I really want to talk
+    about is the stuff I build at night.
+- id: benn_react_1
+  type: talk
+  text: The stuff you build at night. See, when I heard that, I thought you were going
+    to say a deck. Or shelves. My bar had one shelf I built myself. It held three
+    bottles and a grudge. But go ahead.
+  pause_after: 2.0
+- id: thomas_context
+  type: talk
+  text: So at StateCraft we work with government clients on AI systems. Federal, state,
+    municipal. We help them figure out procurement, integration, deployment. It's complex
+    work because government moves slowly and the technology moves fast. My job is basically
+    to sit in the gap between those two speeds and make sure things don't break.
+- id: benn_react_2
+  type: talk
+  text: Sit in the gap between two speeds. Thomas, I once had a dishwasher from nineteen
+    eighty-six and a point-of-sale system from two thousand fifteen. The gap between
+    those two speeds destroyed four wine glasses and a friendship. So I understand the
+    challenge you're describing. Intimately.
+  pause_after: 2.0
+  zoom: true
+- id: ad_break
+  type: ad
+  concept: ads/concepts/cal-worthington-ai.yaml
+  duration: 65.0
+- id: post_ad
+  type: talk
+  text: We're back. Thomas Underhill is still here. Thomas, I want to switch gears
+    entirely. Because you also build something on your own time. A personal project.
+    Tell me about that. Because I also used to give things away for free, and it destroyed
+    me.
+  pause_after: 1.0
+- id: thomas_privar
+  type: talk
+  text: Yeah, so completely separately from my day job, I've been building something
+    called Privar. It's open source, completely free. Anyone in the world can download
+    it. The idea is sovereign and private intelligence. A government, an organization,
+    even just a person who cares about privacy can run Privar on their own infrastructure,
+    their own hardware, and have a real AI capability that never leaves their control.
+    No one else sees their data. No one else owns the model. It's theirs. I build it
+    on nights and weekends because I think this should exist and nobody was making it.
+- id: benn_react_3
+  type: talk
+  text: Nobody was making it. You know what else nobody was making? A functional ice
+    machine under four thousand dollars. I looked. I looked for years. And eventually
+    someone did build one, and it was beautiful, and then I sold the bar and the buyer
+    got the ice machine. What I'm saying is, Thomas, do not let anyone buy your ice
+    machine.
+  pause_after: 2.5
+- id: thomas_confirms
+  type: talk
+  text: That's actually kind of the whole point. Because it's open source, no one
+    can buy it. It belongs to everyone. You can't acquire something that's already
+    free.
+- id: benn_react_4
+  type: talk
+  text: You can't acquire something that's already free. That is the most beautiful
+    sentence I have heard on this program. The peanuts were free. Kevin acquired them
+    anyway. But your version is better. It's a better system.
+  pause_after: 2.0
+- id: benn_sovereign
+  type: talk
+  text: I want to stay on this for a second. Because sovereign means you own it. Your
+    decisions, your data, your intelligence, it stays in your house. I had sovereignty
+    over my bar for fourteen years. Every recipe, every supplier relationship, every
+    Tuesday night regular was mine. And when I lost it, I didn't lose a building.
+    I lost the knowing. The ice machine knew what day it was by how much ice we needed.
+    That knowledge went with the buyer. What Thomas is building means that doesn't
+    have to happen. To a country.
+  pause_after: 2.0
+  zoom: true
+- id: thomas_close
+  type: talk
+  text: That's honestly the best way anyone has ever described it. Sovereignty is
+    just not losing the knowing.
+- id: benn_close
+  type: talk
+  text: Thomas Underhill, everyone. He works in government AI and then goes home and
+    builds free intelligence tools for the world because he believes owning your own
+    mind matters. Privar. Open source. Download it. Own your ice machine. I'm Benn
+    Stone, and that's the BS.
+  pause_after: 1.0

@@ -1,0 +1,73 @@
+episode: ep-20260725-pope-app
+show: bs
+post_day: ''
+caption_hook: Pope's prayer app leaks 700K users' confessions. God wasn't the one
+  listening. 🙏💀
+source_story:
+  headline: Pope's official prayer app commits cardinal sin, leaks 700K+ users' info
+  source: hackernews
+  url: https://www.theregister.com/security/2026/07/24/popes-official-prayer-app-commits-cardinal-sin-leaks-700k-users-info/5278603
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: Two thousand years. The Vatican held the line against modernity for two thousand
+    years. First app. Day one. Breached.
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: The Pope's official prayer app just exposed personal data for over 700,000
+    users. Names, emails, prayer history. A security researcher found it all sitting
+    on an unprotected server. And I have questions.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: The app promised peace, spiritual guidance, and completely unencrypted HTTP
+    requests.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: Your bank uses two-factor authentication. Your prayers were in a public folder
+    literally named 'users.'
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: Confession used to require a priest sworn to absolute secrecy. The app required
+    nothing. Not even a password.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-4
+  type: talk
+  text: So first your prayer gets exposed. Then scraped by a bot. Then fed to an AI.
+    Somewhere a language model now knows you cheated on your diet in 2023 and felt
+    genuinely bad about it.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: The Vatican survived the Reformation, the Enlightenment, and the Da Vinci
+    Code. Did not survive its own App Store listing.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-2
+  type: talk
+  text: Your previous system was a guy in a booth, sworn to secrecy, zero digital
+    footprint. And you replaced that with an AWS bucket labeled 'confessions.'
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: The institution that took 350 years to apologize to Galileo got hacked before
+    version 1.1. Cool. Cool cool cool.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone, and that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

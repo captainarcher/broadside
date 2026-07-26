@@ -1,0 +1,71 @@
+episode: EP-20260725-TILE
+show: bs
+post_day: ''
+caption_hook: 'Tile: Find your keys. Find your wallet. Find a stranger who found you
+  first. 🔍'
+source_story:
+  headline: Tile's security is so bad it's a feature for stalkers
+  source: hackernews
+  url: https://blog.adafruit.com/2026/03/05/tiles-security-is-so-bad-its-a-feature-for-stalkers/
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: Tile's slogan is 'find everything.' Customers are now discovering that everything
+    includes them.
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: 'Tile. Small Bluetooth tracker. One job: help you find lost stuff. Researchers
+    discovered a security flaw so consistent that unauthorized users could track real
+    people''s locations in real time. Tile called it unintentional.'
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: Unintentional. Just happened to work every single time.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: Engineers define a bug as something that behaves unpredictably. By that standard,
+    this flaw is the most reliable feature Tile has ever shipped.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: With Tile you can find your keys, find your wallet, find a stranger who's
+    been watching your commute for six weeks.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-4
+  type: talk
+  text: They promised peace of mind. Reduced stress. And some guy knowing you leave
+    for work at 7:43 every morning.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-5
+  type: talk
+  text: A tracking company that can't control who gets tracked. That's like a locksmith
+    whose own front door doesn't have a lock.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: 'First report: security gap. Second report: still there. Third report: still
+    there, consistent, fully repeatable. At some point QA has to take a bow.'
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: Tile set out to help you find lost things. Turns out the lost thing was your
+    privacy. And someone else found it first.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone, and that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

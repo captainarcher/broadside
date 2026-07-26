@@ -1,0 +1,67 @@
+episode: ep-20260725-securitycam
+show: bs
+post_day: ''
+caption_hook: A security camera shipped with the keys to its maker's entire codebase
+  👁️🔑
+source_story:
+  headline: My security camera shipped a GitHub admin token in its login page
+  source: hackernews
+  url: https://hhh.hn/hanwha-github-token/
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: A security camera just got caught leaving the front door wide open. Its own
+    front door.
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: A popular home security camera shipped with a live GitHub admin token embedded
+    directly in its login page. Not buried in firmware. Not hidden in encrypted config
+    files. The login page. The first thing you see when you open the app.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: Security researchers had to dig deep to find the vulnerability. They opened
+    the login page.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: Most hackers spend weeks reverse-engineering firmware. This one opened Chrome,
+    hit F12, and retired.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: The camera could detect motion, send real-time alerts, and hand strangers
+    the keys to the codebase.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-4
+  type: talk
+  text: You bought a forty-nine dollar security camera. Congratulations. You now have
+    full admin access to a private software repository. You can merge pull requests.
+    You can delete branches. You have more access to this company's infrastructure
+    than its own junior developers. And I have questions.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: The camera watching your front door shipped with a token that opened theirs.
+    At this point it's not a security camera. It's a timeshare.
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: Cool. Cool cool cool. The security camera was the intruder the whole time.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone, and that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

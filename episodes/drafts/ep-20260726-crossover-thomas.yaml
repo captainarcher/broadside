@@ -1,0 +1,39 @@
+episode: ep-20260726-crossover-thomas
+show: bs
+post_day: Saturday
+caption_hook: First guest ever on The Broadside. Thomas Underhill on sovereign AI
+  and owning your own ice machine.
+source_story:
+  headline: Sovereign AI and Owning Your Own Ice Machine
+  source: The Broadside Guest Special
+  url: ''
+scenes:
+- id: thomas_intro
+  type: talk
+  text: Thanks, Benn. Yeah, so my day job is at a company called StateCraft Labs.
+    We do AI work for government clients. But honestly what I really want to talk
+    about is the stuff I build at night.
+- id: thomas_context
+  type: talk
+  text: So at StateCraft we work with government clients on AI systems. Federal, state,
+    municipal. We help them figure out procurement, integration, deployment. It's complex
+    work because government moves slowly and the technology moves fast. My job is basically
+    to sit in the gap between those two speeds and make sure things don't break.
+- id: thomas_privar
+  type: talk
+  text: Yeah, so completely separately from my day job, I've been building something
+    called Privar. It's open source, completely free. Anyone in the world can download
+    it. The idea is sovereign and private intelligence. A government, an organization,
+    even just a person who cares about privacy can run Privar on their own infrastructure,
+    their own hardware, and have a real AI capability that never leaves their control.
+    No one else sees their data. No one else owns the model. It's theirs. I build it
+    on nights and weekends because I think this should exist and nobody was making it.
+- id: thomas_confirms
+  type: talk
+  text: That's actually kind of the whole point. Because it's open source, no one
+    can buy it. It belongs to everyone. You can't acquire something that's already
+    free.
+- id: thomas_close
+  type: talk
+  text: That's honestly the best way anyone has ever described it. Sovereignty is
+    just not losing the knowing.

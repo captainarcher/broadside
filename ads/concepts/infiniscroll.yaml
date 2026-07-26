@@ -1,0 +1,27 @@
+name: "InfiniScroll Premium"
+tagline: "Stop scrolling. Start paying to scroll."
+description: >
+  A parody app that charges a monthly subscription for the privilege
+  of infinite scrolling on all your other apps. Premium tier includes
+  "Doom Scroll Defense" which locks your phone after 3 hours but
+  charges you extra to unlock it.
+style: tech
+voiceover_script: >
+  That's The BS is brought to you by InfiniScroll Premium.
+  You scroll every day. For hours. For free. And honestly?
+  You don't deserve that. Introducing InfiniScroll Premium —
+  the first app that monetizes the thing you were already doing
+  for nothing. For just fourteen ninety-nine a month, you get
+  unlimited scrolling across all platforms. Without InfiniScroll,
+  your thumb just kind of sits there. Doing nothing. Alone.
+  Upgrade to InfiniScroll Platinum and we'll throw in Doom Scroll
+  Defense — which locks your phone after three hours then charges
+  you twelve dollars to open it again. InfiniScroll Premium.
+  Because your attention span was never really yours.
+  InfiniScroll — a proud sponsor of That's The BS.
+text_overlays:
+  - "INFINISCROLL PREMIUM"
+  - "Monetize Your Attention"
+  - "Starting at $14.99/month"
+  - "Doom Scroll Defense™ included"
+duration: 30.0

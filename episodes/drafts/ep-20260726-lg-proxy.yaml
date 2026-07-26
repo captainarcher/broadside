@@ -1,0 +1,66 @@
+episode: ep-20260726-lg-proxy
+show: bs
+post_day: ''
+caption_hook: Your smart TV has been moonlighting. LG is not pleased. 📺
+source_story:
+  headline: LG to ban residential proxies from smart TV apps
+  source: hackernews
+  url: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: Your television has a side hustle. LG just found out.
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: LG announced this week it's banning residential proxy networks from operating
+    through its Smart TV apps. Third-party companies have been quietly routing internet
+    traffic through people's living room televisions. LG has formally declared this
+    unacceptable.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: In 1955, your TV received three channels. Two if it was raining. In 1985,
+    it could play a VHS tape. In 2025, it's laundering web traffic for strangers.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: We spent years worried our TVs were spying on us. We had the dynamic completely
+    backwards.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: LG banning proxy abuse from their own TVs is like a landlord posting a 'no
+    arson' sign after the building's been on fire for two years.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-4
+  type: talk
+  text: And I have questions. Mostly — who at LG looked at a 65-inch OLED and thought
+    'yeah, that's a clean network endpoint'?
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: LG says going forward, Smart TVs will no longer do things their owners have
+    no idea about. The owners have no idea what that means either. So — fits right
+    in.
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: First your TV streams Netflix. Then it streams your IP address to a proxy
+    farm in Bucharest. Then the FBI shows up and your OLED is wearing a wire.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone. And that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

@@ -1,0 +1,66 @@
+episode: ep-20260726-ai-debt
+show: bs
+post_day: ''
+caption_hook: AI can pass the bar exam. Its own CFO cannot find $14 billion. 🤖📉
+source_story:
+  headline: AI Companies Are Trying to Hide a Staggering Amount of Debt
+  source: hackernews
+  url: https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: AI companies are hiding a staggering amount of debt. The most advanced intelligence
+    on Earth is also the most creative accountant.
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: Multiple AI firms are parking enormous liabilities off their balance sheets
+    using financial structures that keep debt invisible to investors. These companies
+    are promising to transform human civilization. They cannot produce a balance sheet
+    that balances. And I have questions.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: They named it OpenAI because every door is open — except the one marked 'revenue.'
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: The AI can pass the bar exam, the medical boards, and the CFA. The executives
+    running it can't explain where fourteen billion dollars went.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: An AI company built on radical transparency hiding its finances is like a
+    nudist opening a trench coat store.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-4
+  type: talk
+  text: AI will revolutionize healthcare, education, and — based on the financial
+    statements — fiction.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: They promised open models, open research, open collaboration. The books are
+    behind six layers of Delaware shell companies. Cool. Cool cool cool.
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: Enron told investors they were building the future of energy. These companies
+    say they're building the future of intelligence. The auditors are the same kind
+    of confused.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone, and that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

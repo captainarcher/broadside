@@ -1,0 +1,77 @@
+# Broadside Configuration
+# Copy this file and fill in your show-specific values.
+
+shows:
+  # Example show configuration. Add your own shows here.
+  my-show:
+    avatar_id: "REPLACE_WITH_YOUR_AVATAR_ID"
+    voice_id: "REPLACE_WITH_YOUR_VOICE_ID"
+    aspect_ratio: "9:16"       # 9:16 for vertical (shorts), 16:9 for horizontal
+    dimensions: [1080, 1920]
+    engine: "avatar_iv"        # avatar_iii (cheaper) or avatar_iv (better quality)
+    cost_per_sec: 0.05
+    background_color: "#0D1B2A"
+    caption:
+      font: "assets/fonts/condensed-bold.ttf"
+      size: 48
+      y_position: 0.75        # proportion from top (0.75 = lower third)
+      highlight_color: "#E63946"
+    brand:
+      wordmark: "assets/brand/wordmark.png"
+      end_text: "@yourhandle"
+
+budget:
+  max_batch_usd: 25
+  max_weekly_usd: 40
+
+notify:
+  - type: osascript           # macOS notification
+
+news:
+  sources:
+    reddit:
+      subreddits: ["nottheonion", "technology", "science", "offbeat"]
+    hackernews:
+      top_n: 200
+    google_news:
+      topics: ["technology", "business", "science", "entertainment"]
+    newsdata:
+      categories: ["technology", "business", "science", "entertainment"]
+  political_filter:
+    keywords_file: "config/political-keywords.txt"
+    llm_classification: true
+
+comedy:
+  model_angles: "anthropic/claude-sonnet-4.6"
+  model_jokes: "anthropic/claude-sonnet-4.6"
+  model_assembly: "anthropic/claude-sonnet-4.6"
+  model_polish: "anthropic/claude-opus-4.6"
+  character_sheet: "config/character-sheet.yaml"
+  example_bank: "examples/"
+  duration_target: 75          # seconds
+
+illustrations:
+  model: "black-forest-labs/flux-2-pro"
+  style_references: "assets/style-references/"
+  style_prefix: >-
+    Your illustration style prompt prefix here. Describe the visual
+    style you want applied consistently across all generated images.
+
+ads:
+  voice_provider: "elevenlabs"
+  voice_id: "REPLACE_WITH_ANNOUNCER_VOICE_ID"
+  music_model: "facebook/musicgen-medium"
+  vhs_filter: true
+  concept_bank: "ads/concepts/"
+
+publishing:
+  youtube:
+    privacy: "private"         # default to private; change manually before publishing
+    category_id: "24"          # Entertainment
+    made_for_kids: false
+    contains_synthetic_media: true
+  instagram:
+    browser: "headed"
+  tiktok:
+    browser: "headed"
+    default_visibility: "public"

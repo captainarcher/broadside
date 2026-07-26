@@ -1,0 +1,48 @@
+# Build artifacts
+build/
+out/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+
+# API tokens and credentials
+*.json.credentials
+tokens/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated media (large files)
+build/**/*.mp4
+build/**/*.png
+out/**/*.mp4
+ads/rendered/**/*.mp4
+assets/illustrations/**/*.png
+
+# Broadside state and runtime data
+~/.broadside/
+scout-digest.json
+
+# Private config overrides (templates are tracked, local configs are not)
+config/config.yaml
+config/character-sheet.yaml
+!config/config.yaml.example
+!config/character-sheet.yaml.example
+BENN_VOICE.md

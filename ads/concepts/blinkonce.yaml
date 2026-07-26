@@ -1,0 +1,19 @@
+# Example parody ad concept.
+# Create your own concepts in this directory.
+
+name: "Example Product"
+tagline: "A tagline that's too good to be true."
+description: >
+  A parody product concept. Describe the fake product and why
+  it's absurd. The more specific and deadpan, the funnier.
+style: infomercial        # infomercial | luxury | tech | absurdist
+voiceover_script: >
+  Are you tired of [mundane thing]? Introducing Example Product.
+  Our patented technology does [absurd claim]. Just [simple action]
+  and boom — [impossible result]. Example Product. Because [punchline].
+text_overlays:
+  - "EXAMPLE PRODUCT"
+  - "Patented Technology"
+  - "Starting at just $99.99"
+  - "Side effects may include [joke]"
+duration: 12.0

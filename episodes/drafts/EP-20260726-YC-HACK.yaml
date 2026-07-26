@@ -1,0 +1,72 @@
+episode: EP-20260726-YC-HACK
+show: bs
+post_day: ''
+caption_hook: One founder hacked into YC Startup School. They were accepted. Obviously.
+  🔓
+source_story:
+  headline: I got into YC Startup School by hacking it
+  source: hackernews
+  url: https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: Someone hacked their way into Y Combinator Startup School. And got accepted.
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: Y Combinator — the most prestigious startup accelerator on Earth. They want
+    founders who break rules and disrupt systems. One applicant took that extremely
+    literally.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: To get into YC, you need a great idea, a strong team, and apparently a working
+    exploit for their admissions dashboard.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: That's like getting hired as a lifeguard by drowning in the interview pool.
+    Terrifying. But you have to respect the commitment.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: Most YC founders validate their product with user interviews and prototypes.
+    This one validated theirs with a zero-day.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-4
+  type: talk
+  text: Also — the hacker's personal website is hosted on a dot-WTF domain. And I
+    have questions. But also, no. That tracks perfectly.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-5
+  type: talk
+  text: 'First they hacked the application form. Then the interview scheduler. By
+    demo day they''d acquired Y Combinator itself through automated SQL injections.
+    Valuation: twelve billion.'
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: They broke into the system AND their email ends in dot-WTF. YC isn't running
+    an accelerator at this point. They're running a support group.
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: So the product was their own acceptance, the domain is dot-WTF, and the go-to-market
+    strategy was a federal crime. Cool. Cool cool cool. Batch starts January.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone, and that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

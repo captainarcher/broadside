@@ -1,0 +1,52 @@
+episode: ep-20260726-privacy-last-stand-special
+show: bs
+post_day: '2026-07-26'
+caption_hook: People are literally ripping surveillance cameras off poles and a mystery hacker embarrassed an entire spyware industry — and nobody's been caught.
+source_story:
+  headline: The growing vigilante movement to knock out Flock surveillance cameras / The hacker who humiliated spyware makers and was never caught
+  source: hackernews
+  url: https://www.theguardian.com/us-news/ng-interactive/2026/jul/25/flock-surveillance-cameras
+  key_quotes:
+    - Communities across the US have seen Flock Safety cameras destroyed, spray-painted, or physically removed from poles overnight.
+    - Flock has deployed over 100,000 automated license plate readers in more than 5,000 communities.
+    - The hacker breached multiple commercial spyware companies, leaked internal documents, and has never been identified.
+scenes:
+- id: cold_open
+  type: talk
+  text: "Flock Safety has installed over a hundred thousand license plate readers across more than five thousand American communities. And some of those communities have responded with the most ancient form of tech criticism available. They're ripping them off the poles."
+  pause_after: 1.0
+  zoom: false
+- id: setup
+  type: talk
+  text: "So here's where we are. Flock Safety — a company whose name sounds like a meditation app for sheep — sells automated license plate readers to police departments and HOAs. A hundred thousand cameras. Five thousand communities. Every car that drives by, logged, timestamped, searchable. They pitch it as neighborhood safety. Which, sure. That's also how you'd pitch a moat full of alligators if you were selling moats full of alligators. The product works exactly as described. People just disagree on whether the description is a feature list or a warning label."
+  pause_after: 0.8
+  zoom: false
+- id: angle1
+  type: talk
+  text: "And so, according to The Guardian, a growing number of people have decided to handle this the old-fashioned way. Under cover of darkness, across multiple states, vigilantes are destroying Flock cameras. Spray paint. Bolt cutters. In some cases, just… yanking them off the pole. Which, I don't care where you stand on surveillance — that's a person who saw a forty-thousand-dollar piece of networked infrastructure and thought, yeah, I'm gonna fight that with my hands. That's not a policy position. That's a vibe. Police say they're investigating the vandalism, which is poetic, because the tool they'd normally use to investigate vandalism is the camera that got vandalized. And I have questions. Like, did no one at Flock think to point a Flock camera at their own Flock cameras? You've got a hundred thousand of them. Buddy, you could spare one."
+  pause_after: 1.2
+  zoom: true
+- id: ad_break
+  type: ad
+  concept: ads/concepts/synctank.yaml
+  duration: 28.0
+- id: angle2
+  type: talk
+  text: "Now. While some people are out there with bolt cutters and a dream, there's another front in this little resistance. TechCrunch profiled a hacker — unnamed, unidentified, uncaught — who breached multiple commercial spyware companies, dumped their internal documents, exposed their client lists, and then just… vanished. Gone. Like a browser tab you closed and can't find again. These are companies that sell surveillance tools to governments. Their entire product is knowing where people are and what they're doing. And one person walked into their systems, took everything, published it, and left no trace. That's like a locksmith getting locked out of his own house by a guy wearing a ski mask and rollerblades."
+  pause_after: 1.0
+  zoom: true
+- id: callback
+  type: talk
+  text: "So let me get this straight. On one side, you've got people physically tearing cameras off telephone poles in the middle of the night. On the other, you've got a ghost in the machine humiliating billion-dollar spyware firms from a laptop that probably costs eight hundred bucks. Two completely different skill sets. One analog, one digital. United by a shared belief that the people watching everyone should maybe experience what it feels like to not see something coming. The surveillance industry spent years perfecting the art of watching. They just never practiced being watched back. Cool. Cool cool cool."
+  pause_after: 1.0
+  zoom: false
+- id: closer
+  type: talk
+  text: "A hundred thousand cameras across five thousand communities, and the company still can't catch the people destroying them. A dozen spyware firms with tools that can crack any phone, and they still can't identify one hacker. Turns out the panopticon has a pretty significant blindspot. Itself."
+  pause_after: 1.2
+  zoom: true
+- id: signoff
+  type: talk
+  text: "I am Benn Stone, and that is the BS."
+  pause_after: 0.0
+  zoom: false

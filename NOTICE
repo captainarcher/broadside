@@ -1,0 +1,98 @@
+Broadside
+Copyright 2026 Benn Stone
+
+This product includes software developed by third parties.
+
+================================================================================
+
+Third-Party Software Notices and Licenses
+
+================================================================================
+
+The following third-party libraries are used by Broadside. Each is distributed
+under its own license terms as noted below.
+
+--- Apache License 2.0 ---
+
+  openai - Copyright OpenAI
+  replicate - Copyright Replicate, Inc.
+  httpx - Copyright Encode OSS Ltd. (BSD-3-Clause)
+  google-api-python-client - Copyright Google LLC
+  google-auth - Copyright Google Cloud Platform
+  google-auth-oauthlib - Copyright Google Cloud Platform
+  google-auth-httplib2 - Copyright Google Cloud Platform
+  google-api-core - Copyright Google LLC
+  googleapis-common-protos - Copyright Google LLC
+  proto-plus - Copyright Google LLC
+  requests - Copyright Kenneth Reitz
+  huggingface_hub - Copyright Hugging Face, Inc.
+  websocket-client - Copyright liris
+  distro - Copyright Nir Cohen
+  flatbuffers - Copyright Google Inc. (Derek Bailey)
+  playwright - Copyright Microsoft Corporation
+  sniffio - Dual-licensed MIT OR Apache-2.0
+
+--- MIT License ---
+
+  pydantic - Copyright Samuel Colvin
+  pydantic-settings - Copyright Samuel Colvin
+  pyyaml - Copyright Kirill Simonov
+  elevenlabs - Copyright ElevenLabs
+  faster-whisper - Copyright Guillaume Klein
+  rich - Copyright Will McGugan
+  tweepy - Copyright Joshua Roesslein
+  click - Copyright Pallets Projects (BSD-3-Clause)
+  h11 - Copyright Nathaniel J. Smith
+  httplib2 - Copyright Joe Gregorio
+  onnxruntime - Copyright Microsoft Corporation
+  ctranslate2 - Copyright OpenNMT
+  beautifulsoup4 - Copyright Leonard Richardson
+  brotli - Copyright The Brotli Authors
+  pyee - Copyright Jessica Frazelle
+  pluggy - Copyright Holger Krekel
+  six - Copyright Benjamin Peterson
+
+--- BSD License (2-Clause or 3-Clause) ---
+
+  scikit-learn - Copyright scikit-learn developers (BSD-3-Clause)
+  numpy - Copyright NumPy Developers (BSD-3-Clause)
+  scipy - Copyright SciPy Developers (BSD-3-Clause)
+  feedparser - Copyright Kurt McKee (BSD-2-Clause)
+  lxml - Copyright lxml dev team (BSD-3-Clause)
+  lxml_html_clean - Copyright Lumir Balhar (BSD-3-Clause)
+  oauthlib - Copyright The OAuthlib Community (BSD-3-Clause)
+  protobuf - Copyright Google LLC (BSD-3-Clause)
+  python-dotenv - Copyright Saurabh Kumar (BSD-3-Clause)
+  respx - Copyright Jonas Lundberg (BSD-3-Clause)
+  pyasn1 - Copyright Ilya Etingof (BSD-2-Clause)
+  threadpoolctl - Copyright Thomas Moreau (BSD-3-Clause)
+  sgmllib3k - Copyright Hardcoded Software (BSD)
+  uritemplate - Copyright Ian Stapleton Cordasco (BSD-3-Clause OR Apache-2.0)
+
+--- ISC License ---
+
+  requests-oauthlib - Copyright Kenneth Reitz
+
+--- Mozilla Public License 2.0 ---
+
+  certifi - Copyright Kenneth Reitz
+  tqdm - Copyright Casper da Costa-Luis (MPL-2.0 AND MIT)
+
+--- Python Software Foundation License ---
+
+  defusedxml - Copyright Christian Heimes
+
+--- Other Permissive ---
+
+  pillow - Copyright Jeffrey A. Clark (HPND License)
+  python-dateutil - Copyright Gustavo Niemeyer (BSD + Apache dual license)
+  newspaper4k - Copyright Lucas Ou-Yang (MIT)
+  praw - Copyright Bryce Boe (BSD-like)
+  prawcore - Copyright Bryce Boe (BSD-like)
+
+================================================================================
+
+All third-party licenses are permissive (MIT, BSD, Apache 2.0, ISC, MPL-2.0,
+PSFL, HPND). No GPL, AGPL, or copyleft licenses are included.
+
+For full license texts, see each package's distribution or source repository.

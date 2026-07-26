@@ -1,0 +1,76 @@
+# Political keywords for content filtering
+# One keyword or phrase per line. Case-insensitive, word-boundary matching.
+# Lines starting with # are comments.
+
+# Institutions
+congress
+senate
+parliament
+supreme court
+white house
+capitol hill
+pentagon
+state department
+federal government
+executive order
+legislation
+bill passes
+
+# Roles
+president of the united states
+senator
+congressman
+congresswoman
+representative
+governor
+mayor
+secretary of state
+attorney general
+cabinet member
+speaker of the house
+vice president
+
+# Process
+election
+ballot
+voting rights
+campaign trail
+primary election
+caucus
+bipartisan
+partisan
+filibuster
+impeach
+gerrymandering
+redistricting
+electoral college
+
+# Parties and ideology
+republican party
+democrat party
+gop
+dnc
+rnc
+liberal
+conservative
+left-wing
+right-wing
+progressive
+libertarian
+socialist
+
+# Geopolitics (when political)
+sanctions
+nato
+diplomatic
+ambassador
+foreign policy
+state visit
+trade war
+tariff
+immigration policy
+border wall
+asylum
+
+# Current figures (update periodically)
+# Add names of current political figures here

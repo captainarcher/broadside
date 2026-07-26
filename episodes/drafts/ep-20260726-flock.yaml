@@ -1,0 +1,82 @@
+episode: ep-20260726-flock
+show: bs
+post_day: ''
+caption_hook: Man destroys surveillance camera to avoid being recorded. The footage
+  is very clear. 🎥
+source_story:
+  headline: The growing vigilante movement to knock out Flock surveillance cameras
+  source: hackernews
+  url: https://www.theguardian.com/us-news/ng-interactive/2026/jul/25/flock-surveillance-cameras
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: 'A vigilante movement is sweeping America. Their mission: destroy surveillance
+    cameras. Their mistake: doing it on camera.'
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: Flock Safety makes cameras that scan license plates and track movement in
+    neighborhoods across the country. Some people find this concerning. Some people
+    find it so concerning they've started smashing the cameras with hammers. Police
+    are investigating. And I have questions.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: Quick note — the surveillance company tracking your every movement is named
+    Flock. As in, a group of animals being herded. Their backup name was apparently
+    Cattle.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: Their product line includes license plate readers, neighborhood cameras, and
+    a vague feeling you're about to be sheared.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: Police say one suspect destroyed a Flock camera specifically to avoid being
+    identified. The footage of him doing it is extremely clear.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-4
+  type: talk
+  text: It captured his face, his plates, and his absolute confidence that this plan
+    was airtight.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-5
+  type: talk
+  text: He smashed Camera One. Camera Two got the whole thing. He smashed Camera Two.
+    Camera Three zoomed in. A passing Amazon van had a dashcam. He is now in prison.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: Destroying a crime camera to protect your privacy is like burning down a library
+    because you don't want anyone reading your diary. Now everything's worse and everyone's
+    staring.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-2
+  type: talk
+  text: So — Flock's cameras recorded a man destroying a Flock camera to avoid being
+    recorded by Flock's cameras. Cool. Cool cool cool. The flock has never been more
+    secure.
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: Critics say Flock treats citizens like livestock. Flock hasn't responded —
+    presumably because they already know exactly where the critics live.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone, and that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

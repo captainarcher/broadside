@@ -1,0 +1,198 @@
+episode_id: BSE-TEST-001
+story_slug: security-camera-github-token
+fact_source_url: https://example.com/placeholder-requires-real-source-before-render
+date: 2025-01-01
+status: draft
+kevin_used: false
+fan_orbit_used: false
+new_canon_proposed: false
+
+scenes:
+
+  - id: intro
+    type: talk
+    text: >
+      Good evening. I'm Benn Stone.
+      Before we begin, I want to say something about trust.
+      When I ran my bar, I had a lock on the front door that you could open with a library card.
+      Not a specific library card. Any library card.
+      A man demonstrated this to me on a Tuesday.
+      I thanked him. He ordered a beer. We never spoke of it again.
+      That is how security worked at my establishment, and I thought that was the floor.
+      I was wrong.
+    pause_after: 1.0
+
+  # --- MAIN BEAT: FACT 1 + REACTION ---
+
+  - id: fact_1
+    type: talk
+    text: >
+      A home security camera — the kind you buy to protect your home —
+      shipped from the factory with a live administrator access token
+      embedded directly in the code of its login page.
+      A security researcher discovered this by opening the login page in a web browser
+      and pressing F12.
+      That's it. That's the whole heist.
+    pause_after: 0.5
+
+  - id: reaction_1
+    type: talk
+    # TOP PICK: Candidate 3
+    text: >
+      I want to be clear about what happened here.
+      They sold a lock with the key taped to the front of the lock.
+      Not hidden. Not around back. Taped to the front, label side out.
+      I once left the register open overnight because the drawer stuck and I was tired.
+      That is the most negligent thing I have ever done with a piece of hardware.
+      I have now been surpassed by a publicly traded company.
+    pause_after: 1.0
+    # --- ALTERNATES ---
+    # Candidate 1:
+    #   My bar had a security camera. It pointed at the register.
+    #   The tape recorded over itself every six hours.
+    #   I considered that a vulnerability.
+    #   This company shipped the password on the outside of the product.
+    #   My six-hour loop was Fort Knox. I owe that camera an apology.
+    #
+    # Candidate 2:
+    #   Pressing F12. That is not hacking. That is reading.
+    #   I kept my liquor inventory in a notebook behind the bar.
+    #   Behind. Not under. Not locked. Behind.
+    #   And I still had more operational security than this camera.
+    #
+    # Candidate 3: [SELECTED]
+    #   (see text above)
+    #
+    # Candidate 4:
+    #   When I sold the bar, the buyer changed the locks on day one.
+    #   Day one. He looked at what I had and he changed them immediately.
+    #   At the time I found that rude.
+    #   I now understand he may have been the only competent person
+    #   I've ever done business with.
+    #
+    # Candidate 5:
+    #   A token. Just sitting there in the page.
+    #   I had a coffee can behind the bourbon with eighty dollars in it.
+    #   Emergency cash. Rent night money.
+    #   The can said COFFEE on it. That was the encryption.
+    #   And it worked longer than this camera's security did.
+    #
+    # Candidate 6:
+    #   F12. The button is on every keyboard.
+    #   It's not a special button. It's not a secret button.
+    #   It's right there, at the top, next to F11.
+    #   My nephew pressed F12 once to see what it did.
+    #   He was nine. He would have found this.
+    #
+    # Candidate 7:
+    #   The login page. The page that is supposed to stop you
+    #   is the page that lets you in.
+    #   My front door had a bell on it. Not for security. It was just a bell.
+    #   It provided more resistance than this login page.
+    #
+    # Candidate 8:
+    #   This is a product designed to watch your house.
+    #   And anyone who can press one button can watch your house instead.
+    #   I had a regular who watched the bar while I ran to the bank.
+    #   His name was Phil, and he fell asleep every time.
+    #   Phil was a better security system. Phil was asleep and he was better.
+
+  - id: fact_2
+    type: talk
+    text: >
+      To be specific — the token that was exposed was a live GitHub administrator token.
+      Meaning it didn't just unlock the camera.
+      It unlocked the company's entire software repository.
+      The source code. The infrastructure. All of it.
+      From the login page of a camera that retails for about forty dollars.
+    pause_after: 0.5
+
+  - id: reaction_2
+    type: talk
+    # TOP PICK: Candidate 5
+    text: >
+      Forty dollars.
+      For forty dollars you got a camera and the keys to the whole company.
+      I sold an entire bar for less than some of you paid for a couch,
+      and even I didn't include the recipe for the house drink.
+      That was separate. That was mine.
+    pause_after: 1.0
+    # --- ALTERNATES ---
+    # Candidate 1:
+    #   That's like buying a drink at my bar and receiving, with the drink,
+    #   a copy of the lease, the liquor license, and the alarm code.
+    #   Which — I didn't have an alarm code. But if I did,
+    #   I would not have printed it on the napkins.
+    #
+    # Candidate 2:
+    #   The whole repository. Not just the front door. The building.
+    #   When I lost my bar, the buyer got the bar.
+    #   He did not also get my car, my apartment, and my residuals
+    #   from season two of a critically — of a television program.
+    #   Those were separate transactions. That's how transactions work.
+    #
+    # Candidate 3:
+    #   So the camera was not protecting anything.
+    #   The camera was a brochure.
+    #   I had a sign on my door that said OPEN.
+    #   On the back it said CLOSED.
+    #   That sign had more access control than this product.
+    #
+    # Candidate 4:
+    #   My ice machine had a service panel on the back.
+    #   Behind the panel was the compressor, the wiring, everything
+    #   that made it what it was.
+    #   You needed a specific Phillips head to open it. A specific one.
+    #   That ice machine had better credential management than this company.
+    #   I've said that before about the ice machine and I've always been right.
+    #
+    # Candidate 5: [SELECTED]
+    #   (see text above)
+    #
+    # Candidate 6:
+    #   Administrator access. From the login screen.
+    #   I kept the bar's books in a filing cabinet in the back office.
+    #   The cabinet locked. The office locked. You had to walk past me.
+    #   Three layers. For a bar that did eleven hundred dollars
+    #   on a good Saturday.
+    #   This company had zero layers. For everything.
+    #
+    # Candidate 7:
+    #   Every piece of software they've ever written. Just there.
+    #   I had one secret at the bar. One. The markup on the well vodka.
+    #   And I took that to my — I still haven't told anyone.
+    #   This company put every secret they had on the porch.
+    #
+    # Candidate 8:
+    #   Forty dollars and you own the company.
+    #   The buyer who got my bar paid more than forty dollars.
+    #   Significantly more. And he only got a bar.
+    #   He did not also get the source code to my life.
+    #   Although he did get the ice machine, and some would say
+    #   that's close.
+
+  - id: sponsor_read
+    type: talk
+    text: >
+      Tonight's broadcast is brought to you by SteadyLatch Home Security.
+      SteadyLatch is the only home security system
+      that ships with no software, no app, and no internet connection.
+      It's a deadbolt.
+      But it's a very good deadbolt.
+      Dave from SteadyLatch showed me the deadbolt personally.
+      He put it on a door and then he tried to open the door
+      and he could not open the door.
+      I said Dave, what about the app.
+      He said there's no app.
+      I said Dave, what if someone presses F12.
+      He said Benn, it's a deadbolt.
+    pause_after: 1.0
+    # Sponsor note: SteadyLatch week 1 beat — intro to Dave and the deadbolt.
+    # Escalation targets: Day 2 Dave demonstrates the deadbolt on a worse door.
+    # Day 3 Dave admits the deadbolt is just his deadbolt from home.
+
+  - id: signoff
+    type: talk
+    text: >
+      I'm Benn Stone, and that's the BS.
+    pause_after: 0.0

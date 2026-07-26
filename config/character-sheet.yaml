@@ -1,0 +1,42 @@
+# Character Sheet Template
+# Copy this file and customize for your show's host persona.
+# This is loaded during the comedy writing pipeline (Pass 4: Voice Polish)
+# to ensure consistent voice across episodes.
+
+character:
+  name: "Your Host Name"
+
+  voice:
+    tone: "Describe the emotional register — e.g., amused, exasperated, deadpan."
+    register: "Describe formality — e.g., casual, professorial, conspiratorial."
+    vocabulary_level: "Describe word choice tendencies."
+    sentence_length: "Describe rhythm — e.g., short and punchy, long and winding."
+
+  catchphrases:
+    - "Your signoff line."
+    - "A recurring reaction phrase."
+
+  never_says:
+    - "Phrases to avoid"
+    - "Cliches the host would never use"
+
+  comedic_perspective: >
+    Describe how the host sees the world. What makes things funny
+    to this character? What lens do they apply to news stories?
+
+  references_style: >
+    What kind of analogies and references does the host use?
+    Pop culture? Sports? Everyday life? Technical jargon?
+
+  episode_structure:
+    cold_open: "How the show starts."
+    setup: "How stories are introduced."
+    punchlines: "What makes a good punchline for this host."
+    callbacks: "How callbacks work in this show."
+    closer: "How segments end."
+    signoff: "The standard signoff."
+
+  rules:
+    - "Rule 1 for the writing style"
+    - "Rule 2 for joke structure"
+    - "Rule 3 for topics to avoid"

@@ -1,0 +1,72 @@
+episode: ep-20260726-coding-solved
+show: bs
+post_day: ''
+caption_hook: Coding is solved. Your app just crashed. Coincidence? 🤖💥
+source_story:
+  headline: If coding has been solved, why does software keep getting worse?
+  source: hackernews
+  url: https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: Tech leaders announced that coding is essentially solved. My banking app has
+    crashed eleven times since Tuesday. Solved.
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: 'A viral post this week asked a simple question: if AI has solved software
+    development, why does software keep getting worse? The industry is celebrating.
+    The apps are not cooperating. And I have questions.'
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: Silicon Valley spent forty years automating every other industry on Earth.
+    Then they automated software development — and finally broke something they actually
+    cared about.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: AI has automated customer service, automated trucking, automated radiology
+    — and automated software engineering straight back to 2003.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: Engineers are reportedly 'euphoric' about AI writing their code. Users are
+    reportedly something else. That word didn't make the press release.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-4
+  type: talk
+  text: Woodstock was euphoric. The moon landing was euphoric. Shipping a null pointer
+    exception to four million users at 2 a.m. is, apparently, also euphoric.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: The automation worked perfectly. The software now crashes faster than ever
+    — at scale, automatically, with zero human intervention required.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-2
+  type: talk
+  text: They're still calling it euphoric. Which at this point is less a mood and
+    more a coping mechanism.
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: There are now seventeen venture-backed startups automating the apology email.
+    Cool. Cool cool cool. Coding is solved. My banking app is not.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone, and that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

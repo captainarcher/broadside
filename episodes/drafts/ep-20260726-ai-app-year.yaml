@@ -1,0 +1,68 @@
+episode: ep-20260726-ai-app-year
+show: bs
+post_day: ''
+caption_hook: 'He let AI build his app. One year later: the login form orders pizza.
+  🍕'
+source_story:
+  headline: I Tried Building a Real App with AI. It Took a Year
+  source: hackernews
+  url: https://www.alexhyett.com/videos/tried-building-app-with-ai-it-took-a-year/
+  key_quotes: []
+scenes:
+- id: cold_open-1
+  type: talk
+  text: A developer spent a year building an app with AI. The AI promised to turn
+    months of work into minutes. It did — it turned four minutes of work into fourteen
+    months.
+  pause_after: 0.0
+  zoom: false
+- id: story_setup-1
+  type: talk
+  text: So a software engineer documented his entire year-long journey trying to build
+    a real production app using AI coding tools. The tools promised speed, automation,
+    freedom from tedious work. He got all three. Just backwards.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-1
+  type: talk
+  text: The AI saved time writing code. Saved time on documentation. Then spent eleven
+    months confidently building the wrong thing.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-2
+  type: talk
+  text: Letting AI write your codebase is like hiring a contractor who works at superhuman
+    speed, never takes breaks, and builds every wall directly in front of a door.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-3
+  type: talk
+  text: Day one, AI writes a login form in seconds. Day forty, AI rewrites the rewrite.
+    Day three hundred, the login form works but now also orders pizza. Day three sixty-five,
+    he types the login form himself in twenty minutes.
+  pause_after: 0.0
+  zoom: false
+- id: punchlines-4
+  type: talk
+  text: The whole pitch is a total non-expert can build a production app with AI.
+    So who tested it? A guy with a computer science degree from MIT. And I have questions.
+  pause_after: 0.0
+  zoom: false
+- id: callbacks-1
+  type: talk
+  text: They said AI would replace developers. Instead, someone spent a year doing
+    performance reviews on a chatbot. That's not replacement. That's middle management.
+  pause_after: 0.0
+  zoom: false
+- id: closer-1
+  type: talk
+  text: After twelve months of babysitting AI through every sprint, he now has less
+    experience than when he started. And a very haunted pizza app.
+  pause_after: 0.0
+  zoom: false
+- id: signoff-1
+  type: talk
+  text: I'm Benn Stone, and that's the BS.
+  pause_after: 0.0
+  zoom: false
+end_card: null

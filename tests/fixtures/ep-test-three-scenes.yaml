@@ -1,0 +1,24 @@
+# Test fixture: minimal 3-scene episode
+episode: ep-test-three-scenes
+show: bs
+post_day: Monday
+caption_hook: "Test episode for validation."
+source_story:
+  headline: "Example Headline for Testing"
+  source: "Test Source"
+  url: "https://example.com/test"
+scenes:
+  - id: s1
+    type: talk
+    text: "This is the opening line of a test episode."
+  - id: s2
+    type: talk
+    text: "This is the middle section with some content to test word counting and duration estimation."
+    pause_after: 1.0
+  - id: s3
+    type: talk
+    text: "This is the closing line of the test episode."
+end_card:
+  wordmark: assets/brand/wordmark.png
+  text: "@testshow"
+  duration: 2.0
