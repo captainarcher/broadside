@@ -1,6 +1,6 @@
 # Test fixture: full episode with all scene types
 episode: ep-test-full
-show: bs
+show: my-show
 post_day: Thursday
 caption_hook: "A test episode covering all scene types."
 source_story:

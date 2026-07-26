@@ -1,6 +1,6 @@
 # Test fixture: minimal 3-scene episode
 episode: ep-test-three-scenes
-show: bs
+show: my-show
 post_day: Monday
 caption_hook: "Test episode for validation."
 source_story:
